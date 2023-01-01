@@ -1,0 +1,219 @@
+
+  @font-face {
+    font-family: Italiana;
+    src: url(Italiana-Regular.ttf);
+
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+  } 
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  nav ul li a{
+    font-family: Italiana;
+    text-decoration: none;
+    color: #573D38;
+    font-size: 30px; 
+  }
+
+  nav ul li a:hover{ 
+    color: #DBA39A;
+  }
+  
+  p{
+    font-family: Montserrat;
+    color: #573D38;
+  }
+
+  body{
+    background-color: #F5EBE0;
+
+  }
+
+  h1{
+    font-family: Italiana;
+    font-weight: normal;
+    color: #573D38;
+    font-size: 100px;
+    text-shadow: 2px 2px 90px #573D38;
+  }
+
+  h2{
+    font-family: Italiana;
+    font-weight: bold;
+    color: #573D38;
+    font-size: 60px;
+  }
+  
+
+  .header{
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .navig{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .logoIcon{
+    width: 320px;
+    margin: 30px 0;
+  }
+
+
+  nav{
+    flex: 3;
+    text-align: right;
+  }
+
+
+  #design1Icon{
+    position: absolute;   
+    top: 250px;
+    margin-left: 50px;
+    margin-right: 200px;
+  }
+
+  #greeting{
+    font-family: Italiana;
+    color: #573D38;
+    position: absolute;     
+    text-align: center;    
+    top: 300px; 
+    right: 400px;
+    width: 100%;
+    font-size: 70px;
+    margin-left: 200px;
+  }
+
+  #objective{
+    font-size: 30px;
+    background-blend-mode: color-dodge;
+    position: absolute;   
+    top: 400px;
+    text-align: left;  
+    margin-left: 400px;
+    margin-right: 200px;
+
+  }
+
+  #works{
+    margin: 200px;
+    bottom: 50px;
+    top: 100px;
+  }
+
+  #chef{
+    position: absolute;
+    top: 91%;
+    right:11%;
+    max-width: 31%;
+    height: auto;
+  }
+
+  #design2Icon{
+    position: absolute;
+    top: 700px;
+    right:150px;
+    width: 30%;
+  }
+
+  #workOne{
+    margin: 100px;
+    bottom: 50px;
+    top: 100px;
+    max-width: 41%;
+    height: auto;
+  }
+
+  #workOneTitle{
+    position: relative;
+    text-align: right;
+    bottom: 500px;
+    right: 15%;
+  }
+
+  #workOneDesc{
+    position: relative;
+    font-size: 20px;
+    float: right;
+    right: 140px;
+    bottom: 460px;
+  }
+
+  #workTwo{
+    position: relative;
+    margin: 10px;
+    bottom: 50px;
+    left: 45%;
+    max-width: 48%;
+    height: auto;
+  }
+
+  #workTwoTitle{
+    position: relative;
+    bottom: 563px;
+    left: 110px;
+  }
+
+  #workTwoDesc{
+    position: relative;
+    font-size: 20px;
+    left: 110px;
+    bottom: 500px;
+  }
+
+  #resume{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  #contactMe{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 300px;
+    margin: 100px;
+    bottom: 30px;
+  }
+
+  #contactsss{
+    font-family: Montserrat;
+    color: #573D38;
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    top: 310px;
+    margin: 130px;
+    margin-bottom: 200px;
+    padding: 30px;
+
+  }
+
+  table, th, td{
+    border: 3px solid #573D38;
+    border-collapse: collapse;
+    border-spacing: 30px;
+    padding: 30px;
+  }
+
+
+  
